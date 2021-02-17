@@ -1,0 +1,22 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-width: 1024px;
+}
+
+.item {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.title {
+  position: absolute;
+  bottom: 5%;
+  right: 1%;
+  background-color: grey;
+  padding: 1px 5px;
+  border-radius: 10px;
+  color: white;
+}
